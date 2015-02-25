@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="eCommerceApplication.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>eCommerce Application</h1>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/login.aspx" Text="HOME"/>
+                        <asp:MenuItem NavigateUrl="~/about.aspx" Text="ABOUT"/>
+                        <asp:MenuItem NavigateUrl="~/contact.aspx" Text="CONTACT US"/>
+                        <asp:MenuItem NavigateUrl="~/logout.aspx" Text="LOGOUT"/>
+                        <asp:MenuItem NavigateUrl="~/order.aspx" Text="ORDER"/>
+                        <asp:MenuItem NavigateUrl="~/payment.aspx" Text="PAYMENT"/>
+                        <asp:MenuItem NavigateUrl="~/delivery.aspx" Text="DELIVERY"/>
+                        <asp:MenuItem NavigateUrl="~/shipping.aspx" Text="SHIPPING"/>
+                        <asp:MenuItem NavigateUrl="~/feedback.aspx" Text="FEEDBACK"/>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,4 @@
+c:\users\manoj\documents\visual studio 2010\Projects\eCommerceApplication\eCommerceApplication\bin\eCommerceApplication.dll
+c:\users\manoj\documents\visual studio 2010\Projects\eCommerceApplication\eCommerceApplication\bin\eCommerceApplication.pdb
+c:\users\manoj\documents\visual studio 2010\Projects\eCommerceApplication\eCommerceApplication\obj\Debug\eCommerceApplication.dll
+c:\users\manoj\documents\visual studio 2010\Projects\eCommerceApplication\eCommerceApplication\obj\Debug\eCommerceApplication.pdb
